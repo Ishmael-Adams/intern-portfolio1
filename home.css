@@ -1,0 +1,101 @@
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax-slider {
+    height: 300vh; /* Height needs to be larger to allow scrolling */
+    overflow: hidden;
+}
+
+.slide {
+    position: relative;
+    height: 100vh; /* Full viewport height for each slide */
+    background-size: cover;
+    background-attachment: fixed; /* Keeps background fixed while scrolling */
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#slide1 {
+    background-image: url('https://media.istockphoto.com/id/2154491908/photo/white-gray-wave-pixelated-pattern-abstract-ombre-silver-background-pixel-spotlight-wrinkled.jpg?s=612x612&w=0&k=20&c=FCkNsJURVxHZGyKeRhKYy3SsHht87hPUlEAx0KVwjq4=');
+}
+
+#slide2 {
+    background-image: url('https://cdn.pixabay.com/photo/2023/11/30/14/37/ai-generated-8421840_640.jpg');
+}
+
+#slide3 {
+    background-image: url('https://cdn.pixabay.com/photo/2020/03/20/19/09/planet-4951716_640.jpg');
+}
+
+.content {
+    position: relative;
+    max-width: 80%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+p {
+    margin: 0;
+    font-size: 1.5em;
+}
+.modal-body{
+    color: black;
+}
+h5 {
+    font-size: 50px;
+    color: rgb(42, 153, 165);
+    font-family: 'Times New Roman', Times, serif;
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: rgb(230,104,59);
+}
+
+.info a{
+    text-decoration:  none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background: rgb(59,174,209);
+}
+.info h3{
+    color: black;
+}
+
