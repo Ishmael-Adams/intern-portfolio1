@@ -208,3 +208,30 @@ p {
       height: 200px;
     }
   }
+  .parallax {
+    background-image: url('https://cdn.pixabay.com/photo/2015/05/11/14/44/pencils-762555_640.jpg'); /* Add your background image URL */
+    height: 500px; /* Adjust height as needed */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+
+}
+.parallax1 {
+  background-image: url('https://cdn.pixabay.com/photo/2021/03/02/13/04/laptop-6062423_640.jpg'); /* Add your background image URL */
+  height: 500px; /* Adjust height as needed */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}

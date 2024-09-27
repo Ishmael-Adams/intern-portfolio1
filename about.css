@@ -28,6 +28,7 @@
     font-size: 45px;
     color: #000;
     margin-bottom: 20px;
+    padding: auto;
 }
 .about-text h3{
     font-size: 25px;
@@ -46,4 +47,23 @@
         flex-direction: column;
     }
     
+}
+.abtprojects {
+    padding: auto;
+    align-content: center;
+}
+.parallax {
+    background-image: url('https://cdn.pixabay.com/photo/2024/05/28/12/05/workplace-8793724_640.jpg'); /* Add your background image URL */
+    height: 100vh; /* Adjust height as needed */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    transition: -1;
+    position: relative;
 }
